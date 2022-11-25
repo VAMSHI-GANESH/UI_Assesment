@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+.Main h1{
+    color: aliceblue;
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.Main .center{
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+}
+.Main h2{
+    color: aliceblue;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.Main h3{
+    margin-top: 50px;
+    color:orange;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    
+    
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    color:aliceblue;
+    
+}
+
+nav{
+    margin-bottom: 0px;
+}
+header{
+    background-image: url(images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 575px;
+    margin-top: 0px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-sm-4{
+    border: 1px solid pink;
+    margin: 5px;
+    background-color: yellow;
+}
+
+p{
+    padding: 10px;
+}
+a:hover{
+    background-color: pink;
+}
+.btn{
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua; 
+    padding: 10px;
+}
+.footer .section{
+    margin-left: 0px;
+}
+@media screen and (max-width: 765px) { 
+    .col-sm-4
+    {
+        width: 100%;
+    }
+    .Main h1{
+        font-size: 3rem;
+        padding: 5px;
+    
+    }
+    .Main .center{
+        
+        font-size: 2rem;
+    }
+    .Main h2{
+        font-size: 3rem;
+        padding: 5px;
+        
+    }
+    .Main h3{
+
+        font-size: 2rem;
+    }
+    
+}
